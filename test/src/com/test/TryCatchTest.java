@@ -21,7 +21,7 @@ public class TryCatchTest {
 			
 		}catch(Exception e){
 			e.printStackTrace();
-			System.out.println("Warning: throws an exception");
+			System.out.println("Warning: caught an exception");
 			return result = 999;
 		}finally{
 			System.out.println("The finally statement is executed, result value:" + result);
